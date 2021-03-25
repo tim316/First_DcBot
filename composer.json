@@ -1,0 +1,18 @@
+{
+  "name": "himmelkreis4865/phpcord",
+  "description": "A simple discord bot library written in PHP",
+  "type": "library",
+  "license": "GPL-3.0",
+  "require": {
+    "php": "^7.2",
+    "ext-openssl": "*",
+    "ext-json": "*",
+    "ext-yaml": "*",
+    "ext-sockets": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "phpcord\\": ["src/phpcord"]
+    }
+  }
+}
